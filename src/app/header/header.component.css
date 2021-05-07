@@ -1,0 +1,15 @@
+.header{
+    text-align: center;
+    width: 100%;
+    background-color:#ffd31d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 90px;
+    width: 100vw;
+}
+
+.logo{
+    font-size: 80px;
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+  <p class="content" *ngIf="favorites.length==0">Add your favorite movies to view here!</p>
+  <table class="table">
+    <tr>
+      <th>Movie Name</th>
+      <th>Movie ID</th>
+    </tr>
+    <tr *ngFor="let favorite of favorites">
+        <td><a href="http://imdb.com/title/{{favorite.movieID}}" target='_blank'>{{favorite.movieID}}</a></td>
+        <td><a href="http://imdb.com/title/{{favorite.movieID}}" target='_blank'>{{favorite.movieTitle}}</a></td>
+      
+    </tr>
+  </table>
+</div>

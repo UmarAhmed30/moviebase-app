@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="content-panel">
+      <h1>Welcome Back!</h1>
+      <p>
+        To stay connected with us please login!
+      </p>
+      <button class="sign-up-btn" (click)="gotoSignIn()">Sign In</button>
+    </div>
+    <div class="sign-up-container">
+      <div class="form-container">
+        <h1>Sign Up</h1>
+        <input type="email" (input)="onUpdateEmailID($event)" placeholder="Enter your email-id">
+        <input type="text" (input)="onUpdateUsername($event)" placeholder="Enter your username">
+        <input type="password" (input)="onUpdatePassword($event)" placeholder="Set your password">
+        <div>{{valResult}}</div>
+        <button (click)="addUser()">Register</button>
+      </div>
+    </div>
+  </div>
+</div>

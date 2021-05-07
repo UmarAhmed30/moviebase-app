@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img width="250px" height="350px" [src]="movieDetails['Poster']">
+    </div>
+    <div class="col-md-8">
+      <h2>{{movieDetails['Title']}}</h2>
+      <ul class="list">
+        <li class="list-item"><strong>Genre : </strong>{{movieDetails['Genre']}}</li>
+        <li class="list-item"><strong>Released : </strong>{{movieDetails['Released']}}</li>
+        <li class="list-item"><strong>Rated : </strong>{{movieDetails['Rated']}}</li>
+        <li class="list-item"><strong>IMDB Rating : </strong>{{movieDetails['imdbRating']}}</li>
+        <li class="list-item"><strong>Director : </strong>{{movieDetails['Director']}}</li>
+        <li class="list-item"><strong>Writer : </strong>{{movieDetails['Writer']}}</li>
+        <li class="list-item"><strong>Actors : </strong>{{movieDetails['Actors']}}</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <h3>Plot : </h3>
+    <p>{{movieDetails['Plot']}}</p>
+    <a href="http://imdb.com/title/{{movieDetails['imdbID']}}" target='_blank' class='btn btn-primary'>View IMDB</a>
+    <button class="btn btn-primary" (click)="addFavorites()">Add to Favorites</button>
+  </div>
+</div>

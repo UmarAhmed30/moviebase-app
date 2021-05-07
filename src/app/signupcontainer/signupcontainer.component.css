@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container {
+  width: 50%;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.sign-in-container {
+  width: 50%;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 20px;
+  width: 100%;
+}
+
+::placeholder {
+  font-family: 'Bangers', cursive;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+}
+
+.content-panel {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  color: #ffd31d;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0%;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: black;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: #868585;
+}
+
+.sign-up-btn {
+  border: 1px solid #ffffff;
+}
+
+.sign-up-btn:hover {
+  background-color: #ffd31d;
+  border-color: #ffffff;
+  color: black;
+  border-color: black;
+}

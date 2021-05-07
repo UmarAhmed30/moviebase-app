@@ -1,0 +1,22 @@
+{
+  "favorites": [
+    {
+      "id": 1,
+      "email": "umar123@gmail.com",
+      "movieID": "tt0120616",
+      "movieTitle": "The Mummy"
+    },
+    {
+      "email": "umar123@gmail.com",
+      "movieID": "tt0848228",
+      "movieTitle": "The Avengers",
+      "id": 2
+    },
+    {
+      "email": "umar123@gmail.com",
+      "movieID": "tt0903624",
+      "movieTitle": "The Hobbit: An Unexpected Journey",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <p class="content" *ngIf="movies.length==0">Explore new movies with us!</p>
+  <div class="row" style="color: white;" *ngIf="movies.length>0">
+    <div class="col-md-4" *ngFor="let movie of movies">
+      <div class="text-center">
+        <img width="200px" height="320px" [src]="movie.Poster" alt='Movie-poster'>
+        <h3>{{movie.Title}}</h3>
+        <button [val]="movie.imdbID" (click)="getMovieID(movie.imdbID)" class='movie-btn btn btn-primary'>Movie Details</button>
+      </div>
+    </div>
+  </div>
+</div>

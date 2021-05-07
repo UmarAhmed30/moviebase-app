@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="sign-in-container">
+      <div class="form-container">
+        <h1>Sign In</h1>
+        <input type="email" (input)="onUpdateEmail($event)" placeholder="Enter your email">
+        <input type="password" (input)="onUpdatePassword($event)" placeholder="Enter your password">
+        <div>{{valResult}}</div>
+        <button (click)="auth()">Login</button>
+      </div>
+    </div>
+    <div class="content-panel">
+      <h1>Hello Fanby!</h1>
+      <p>Browse through your favourite movies with us!</p>
+      <button class="sign-in-btn" (click)="gotoSignUp()">Sign Up</button>
+    </div>
+  </div>
+
+</div>

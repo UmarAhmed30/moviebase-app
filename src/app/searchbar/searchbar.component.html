@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-9">
+            <label>Enter movie name&nbsp;:</label>&nbsp;
+            <input type="text" (input)="onUpdateSearchMovie($event)" placeholder="Movie name">&nbsp;
+            <button (click)="getMovies()">Search!</button>
+            <button (click)="getFavourites()">View Favourites</button>
+            <button (click)="signOut()">Sign Out</button>
+        </div>
+        <div class="col-md-3">
+            <h2 class="logo"><i class="fa fa-film"></i>&nbsp;Fan-nation</h2>
+        </div>
+    </div>
+</div>
+
+<app-movie-list-container [movies]="movies"></app-movie-list-container>
