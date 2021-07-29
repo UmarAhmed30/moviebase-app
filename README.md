@@ -1,4 +1,8 @@
-# MoviebaseApp
+# MovieBase Web Application
+
+Browse through your favourite movies using Fannation.
+
+Demo - ***https://moviebase-app-ecad1c.netlify.app/***
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
