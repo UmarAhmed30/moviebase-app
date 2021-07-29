@@ -1,6 +1,6 @@
 # MovieBase Web Application
 
-Browse through your favourite movies using Fannation.
+Browse through your favourite movies with Fan-nation.
 
 Demo - ***https://moviebase-app-ecad1c.netlify.app/***
 
